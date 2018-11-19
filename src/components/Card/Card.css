@@ -1,0 +1,14 @@
+.card {
+    margin: 20px;
+}
+
+.info {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.info-title {
+    font-weight: bold;
+    font-size: 1.25em;
+}
