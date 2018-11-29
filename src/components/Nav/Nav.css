@@ -1,0 +1,11 @@
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  height: 40px;
+  padding-top: 10px;
+}

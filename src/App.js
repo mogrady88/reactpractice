@@ -1,28 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import CardList from "../src/components/CardList";
-import Form from "../src/components/Form";
+import NavBar from '../src/components/Nav';
 
-class App extends Component {
-  state = {
-  cards: [
-    {
-        name: "Matt O'Grady",
-        avatar_url: "https://avatars3.githubusercontent.com/u/35465181?v=4",
-        company: "Georgia Tech"
-    }
-]
-}
-addNewCard = (cardinfo) => {
-  this.setState(prevState => ({
-        cards: prevState.cards.concat(cardinfo)
-      }))
-}
+class App extends React.Component {
   render() {
     return (
-      <div>
-        <Form onSubmit={this.addNewCard} />
-        <CardList cards={this.state.cards} />
+      <div className="container-fluid">
+        <NavBar />
+        <div className="container" />
       </div>
     );
   }

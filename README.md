@@ -1,3 +1,13 @@
+
+Notes: 
+
+11/19/18: Created react app and initialized repository
+    - Created Github card creator
+        - Created Card, CardList, Form, axios call
+
+
+_______________________________________________________________________________________________________________
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
